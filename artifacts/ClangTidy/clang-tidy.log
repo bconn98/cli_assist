@@ -1,0 +1,74 @@
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:319:10: warning: macro 'COMPILER_ID' used to declare a constant; consider using a 'constexpr' constant [cppcoreguidelines-macro-usage]
+  319 | # define COMPILER_ID "Clang"
+      |          ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:421:13: warning: variable 'info_compiler' is non-const and globally accessible, consider making it const [cppcoreguidelines-avoid-non-const-global-variables]
+  421 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+      |             ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:421:13: warning: declaration must be declared within the '__llvm_libc' namespace [llvmlibc-implementation-in-namespace]
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:434:9: warning: function-like macro 'STRINGIFY_HELPER' used; consider a 'constexpr' template function [cppcoreguidelines-macro-usage]
+  434 | #define STRINGIFY_HELPER(X) #X
+      |         ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:435:9: warning: function-like macro 'STRINGIFY' used; consider a 'constexpr' template function [cppcoreguidelines-macro-usage]
+  435 | #define STRINGIFY(X) STRINGIFY_HELPER(X)
+      |         ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:439:10: warning: macro 'PLATFORM_ID' used to declare a constant; consider using a 'constexpr' constant [cppcoreguidelines-macro-usage]
+  439 | # define PLATFORM_ID "Linux"
+      |          ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:707:9: warning: function-like macro 'DEC' used; consider a 'constexpr' template function [cppcoreguidelines-macro-usage]
+  707 | #define DEC(n)                   \
+      |         ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:718:9: warning: function-like macro 'HEX' used; consider a 'constexpr' template function [cppcoreguidelines-macro-usage]
+  718 | #define HEX(n)             \
+      |         ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:734:1: warning: do not declare C-style arrays, use std::array<> instead [cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays]
+  734 | char const info_version[] = {
+      | ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:734:12: warning: declaration must be declared within the '__llvm_libc' namespace [llvmlibc-implementation-in-namespace]
+  734 | char const info_version[] = {
+      |            ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:783:13: warning: variable 'info_platform' is non-const and globally accessible, consider making it const [cppcoreguidelines-avoid-non-const-global-variables]
+  783 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+      |             ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:783:13: warning: declaration must be declared within the '__llvm_libc' namespace [llvmlibc-implementation-in-namespace]
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:784:13: warning: variable 'info_arch' is non-const and globally accessible, consider making it const [cppcoreguidelines-avoid-non-const-global-variables]
+  784 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+      |             ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:784:13: warning: declaration must be declared within the '__llvm_libc' namespace [llvmlibc-implementation-in-namespace]
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:804:13: warning: variable 'info_language_standard_default' is non-const and globally accessible, consider making it const [cppcoreguidelines-avoid-non-const-global-variables]
+  804 | const char* info_language_standard_default = "INFO" ":" "standard_default["
+      |             ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:804:13: warning: declaration must be declared within the '__llvm_libc' namespace [llvmlibc-implementation-in-namespace]
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:820:13: warning: variable 'info_language_extensions_default' is non-const and globally accessible, consider making it const [cppcoreguidelines-avoid-non-const-global-variables]
+  820 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+      |             ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:820:13: warning: declaration must be declared within the '__llvm_libc' namespace [llvmlibc-implementation-in-namespace]
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:832:5: warning: declaration must be declared within the '__llvm_libc' namespace [llvmlibc-implementation-in-namespace]
+  832 | int main(int argc, char* argv[])
+      |     ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:832:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  832 | int main(int argc, char* argv[])
+      | ~~~ ^                           
+      | auto                             -> int
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:835:14: warning: do not use pointer arithmetic [cppcoreguidelines-pro-bounds-pointer-arithmetic]
+  835 |   require += info_compiler[argc];
+      |              ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:836:14: warning: do not use pointer arithmetic [cppcoreguidelines-pro-bounds-pointer-arithmetic]
+  836 |   require += info_platform[argc];
+      |              ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:837:14: warning: do not use pointer arithmetic [cppcoreguidelines-pro-bounds-pointer-arithmetic]
+  837 |   require += info_arch[argc];
+      |              ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:839:14: warning: do not use array subscript when the index is not an integer constant expression [cppcoreguidelines-pro-bounds-constant-array-index]
+  839 |   require += info_version[argc];
+      |              ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:853:14: warning: do not use pointer arithmetic [cppcoreguidelines-pro-bounds-pointer-arithmetic]
+  853 |   require += info_language_standard_default[argc];
+      |              ^
+/vol/cli-assist/artifacts/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:854:14: warning: do not use pointer arithmetic [cppcoreguidelines-pro-bounds-pointer-arithmetic]
+  854 |   require += info_language_extensions_default[argc];
+      |              ^
+/vol/cli-assist/test/src/MyTestUt.cpp:1:1: warning: system include gtest/gtest.h not allowed [llvmlibc-restrict-system-libc-headers]
+    1 | #include <gtest/gtest.h>
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+    2 | 
+Resource filename: /usr/local/lib/python3.11/dist-packages/clang_tidy/data/bin/clang-tidy 

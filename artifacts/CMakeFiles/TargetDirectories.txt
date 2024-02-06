@@ -1,0 +1,3 @@
+/vol/cli-assist/artifacts/CMakeFiles/hello_world.dir
+/vol/cli-assist/artifacts/CMakeFiles/edit_cache.dir
+/vol/cli-assist/artifacts/CMakeFiles/rebuild_cache.dir

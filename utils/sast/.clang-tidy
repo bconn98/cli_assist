@@ -1,0 +1,9 @@
+---
+Checks:          '*'
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+FormatStyle:     none
+User:            user
+CheckOptions:
+  - key:             some-check.SomeOption
+    value:           'some value'
